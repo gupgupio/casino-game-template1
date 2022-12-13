@@ -1,7 +1,9 @@
 body { padding: 0; margin: 0 }
 @media only screen and (orientation:portrait) {
     body {
-        transform: rotate(90deg);
+        /*transform: rotate(90deg);*/
+        height: 400px;
+        transform: translate(0%, 150%);
     }
 }
 #unity-container { position: absolute }
